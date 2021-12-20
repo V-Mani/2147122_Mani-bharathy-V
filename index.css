@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;   
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 30px;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.logo a:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+
+ul{
+    margin: 0px;
+}
+
+ul li{
+    float: left;
+    padding: 0px 30px;
+    list-style: none;
+}
+
+ul li a:hover:not(.active){
+    color: red;
+    font-size: larger;
+	
+}
+
+.header{
+    background-image: url(foodcourt.jpg);
+    background-position: initial    ;
+    height: 50vh;
+}
+.button {
+    border-radius: 2px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px;
+    width: 100px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  p {
+    background-color: yellow;
+  }
+  #p {
+    text-align:center;
+}
